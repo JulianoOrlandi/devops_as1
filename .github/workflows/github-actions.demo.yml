@@ -20,10 +20,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v3
-    - run: echo "Etapa 2"
+    - run: python3 run hello.py
 
   deploy-job:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v3
-    - run: echo "Etapa 3"
+    - run: echo "Finalizado"
